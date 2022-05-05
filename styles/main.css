@@ -1,0 +1,153 @@
+/* @import url("Noto_Sans/NotoSans-Regular.ttf"); 
+@import url("Noto_Sans/NotoSans-Bold.ttf");  */
+ 
+@font-face{
+  font-family: 'NotoSans';
+  src: url("../font/NotoSans-Regular.ttf");
+}
+
+@font-face{
+  font-family: 'NotoSansBold';
+  src: url("../font/NotoSans-Bold.ttf");
+}
+
+body{
+  background-image: url(../images/sterren.jpg);
+  background-size: cover;
+	color: #21A4D5;
+  font-family: "NotoSans", sans-serif; 
+  font-size: 8pt;
+	margin: 0;
+	padding: 0;
+  border: 0;
+}
+
+h1{
+  margin-left: 10%;
+  font-family: "NotoSansBold";
+  
+}
+
+h2{
+  padding-left: 5%;
+  margin: 0;
+}
+
+.blokFlex{
+  display:flex;
+}
+.blokFlex p {
+  padding-left: 5%;
+}
+
+.blokDun{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 80%;
+  height:40pt ;
+  border-radius: 15%;
+  background-color: hsla(197, 82%, 15%, 0.4);
+  
+}
+
+.blokDun p {
+  padding-left: 5%;
+}
+
+.blokDik{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 80%;
+  height:80pt ;
+  border-radius: 15%;
+  background-color: hsla(197, 82%, 15%, 0.4);
+  
+}
+
+.blokFlex2{
+  display:flex;
+}
+
+.blokFlex2 h3 {
+  padding-left: 5%;
+} 
+
+.blokFlex3{
+  display:flex;
+}
+
+.blokFlex3 p {
+  padding-left: 10%;
+} 
+
+
+.blokHalf{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 80%;
+  height:150pt ;
+  border-radius: 15%;
+  background-color: hsla(197, 82%, 15%, 0.4);
+}
+
+#gezondheid, #voedsel{
+  max-width: 90%; 
+  max-height: 130pt;
+  padding: 5pt;
+  
+}
+
+
+
+  
+@media only screen and (min-width: 721px) and (max-width:1024px) {
+
+  .blokDun, .blokDik, .blokHalf{
+    margin-bottom: 2%;
+  }
+
+  .blokFlex4{
+  display: flex;
+}
+
+#hamsterVoedsel{
+  margin-left: 5%;
+}
+
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
+
+  .blokDun, .blokDik, .blokHalf{
+    margin-bottom: 2%;
+  }
+
+  .blokFlex4{
+    display: flex;
+  }
+
+  
+  #hamsterVoedsel{
+    margin-left: 5%;
+  }
+ 
+
+}
+
+@media only screen and (min-width: 1281px) {
+
+  .blokDun, .blokDik, .blokHalf{
+    margin-bottom: 2%;
+  }
+  
+  .blokFlex4{
+    display: flex;
+  }
+
+  
+  #hamsterVoedsel{
+    margin-left: 5%;
+  }
+  
+}
